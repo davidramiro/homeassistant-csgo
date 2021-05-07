@@ -1,5 +1,5 @@
 {
-    "name": "CS:GO game state",
+    "name": "CS:GO game state extended",
     "homeassistant": "0.100",
     "iot_class": "local_push"
 }
