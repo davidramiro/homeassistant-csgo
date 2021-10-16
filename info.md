@@ -21,7 +21,7 @@ Open that directory and add a file called **gamestate_integration_homeassistant.
 Add the following content and replace the "uri" with the one copied during the integration setup:
 
 ```
-"HomeAssistant Integration v.2"
+"HomeAssistant Integration v1.2.0"
 {
  "uri" "https://hooks.nabu.casa/xyz"
  "timeout" "5.0"
@@ -78,6 +78,14 @@ Player health is between 11 and 30
 
 Player health is 10 or lower
 
+### csgo_round_win_ct
+
+CT team won the round
+
+### csgo_round_win_t
+
+T team won the round
+
 ## Automations
 
 Use these events to trigger automations that control your lights, sounds, fireworks, etc.
@@ -86,5 +94,5 @@ Have fun!
 
 ## Example usages
 
-* [Control lights](https://www.youtube.com/watch?v=kEM54QmAMlw) ([Community thread explaing the config used in the video](https://community.home-assistant.io/t/counter-strike-global-offensive-game-state-integration/175505))
-* [Start real fire when bomb explodes](https://automatedhome.party/2020/03/28/summoning-actual-fire-or-other-automations-when-the-bomb-goes-off-in-csgo-via-home-assistant/)
+- [Control lights](https://www.youtube.com/watch?v=kEM54QmAMlw) ([Community thread explaing the config used in the video](https://community.home-assistant.io/t/counter-strike-global-offensive-game-state-integration/175505))
+- [Start real fire when bomb explodes](https://automatedhome.party/2020/03/28/summoning-actual-fire-or-other-automations-when-the-bomb-goes-off-in-csgo-via-home-assistant/)
